@@ -1,0 +1,35 @@
+/* Media Query for Laptops */
+@media (max-width: 1024px) {
+    #header {
+        height: 64px;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    #header .logo h1 {
+        font-size: 28px;
+    }
+}
+
+/* Media Query for Mobiles */
+@media (max-width: 768px) {
+    #header .logo h1 {
+        font-size: 28px;
+    }
+
+    .navbar li {
+        position: relative;
+        top: 20px;
+        left: 0;
+    }
+
+    .navbar a,
+    .navbar a:focus {
+        padding: 10px 0 10px 15px;
+        top: 0;
+    }
+
+    .logo{
+        position: relative;
+        right: 45px;
+    }
+}
